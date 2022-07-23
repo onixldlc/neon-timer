@@ -34,6 +34,7 @@ function convertToSecond(len){
 		"min":60,
 		"sec":1
 	}
+	len.replaceAll("_"," ")
 	var finalLen = 0
 	len.split(", ").forEach((value)=>{
 		value = value.match(/(\d+?) (\w{3})/)
