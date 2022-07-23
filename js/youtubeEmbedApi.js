@@ -18,8 +18,8 @@ function createYtEmbed(ytUrl){
 
 	onYouTubeIframeAPIReady = ()=>{
 		player = new YT.Player('content', {
-			height: '500',
-			width: '500',
+			height: '0',
+			width: '0',
 			videoId: videoId,
 			playerVars:{
 				autoplay: 1,
